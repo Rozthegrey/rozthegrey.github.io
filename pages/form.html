@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <link href="/css/special.css" rel="stylesheet">
+    <link href="/css/form.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/css/fonts.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ 
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+                <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="/images/42ad99c3b8bd4843bbd784d7d5666848(2).png"  alt="" width="223" height="50"/></a></div>
+              </div>
+              <div class="rd-navbar-main-element">
+                <div class="rd-navbar-nav-wrap">
+                  <!-- RD Navbar Share-->
+                  <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
+                    <ul class="list-inline rd-navbar-share-list">
+                      <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="#"></a></li>
+                      <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li>
+                      <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
+                      <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li>
+                    </ul>
+                  </div>
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link"  onclick="window.location.href='/index.html';" >Home</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Services</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">About</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#team">Client</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#news">Blog</a></li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Contacts</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+        <div class="form-board" style="background: url(/images/smiling-elegant-businessman.jpg); background-size: 100% 100%;">
+            <h2 style="color:#fff; font-weight: bold; font-size: 3rem; ">Book an appointment</h2>
+        </div>
+        <form class="card" method="POST" action="https://formspree.io/f/mqkranrz">
+          <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+                </div>
+            </div>
+            <!-- Text input-->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="email">Email</label>
+                    <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md">
+                </div>
+            </div>
+            <!-- Text input-->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="Number">Number</label>
+                    <input id="number" name="number" type="text" placeholder="Number" class="form-control input-md">
+                </div>
+            </div>
+            <!-- Select Basic -->
+         
+            <!-- Select Basic -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label" for="appointmentfor">Appointment For</label>
+                    <select id="appointmentfor" name="appointmentfor" class="form-control">
+                        <option value="Visa on Arrival">Visa on Arrival</option>
+                        <option value="Residence Permit">Residence Permit</option>
+                        <option value="Nigerian Passport">Nigerian Passport</option>
+                        <option value="Expatriate Quota">Expatriate Quota</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Button -->
+            <div class="col-md-12">
+                <div class="form-group">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An Appointment</button>
+                </div>
+            </div>
+        </div>
+        </form>
+      </div>
+        <div class="footer">
+            <div class="contact-us" >
+                <div class="footer-distributed">
+          
+                  <div class="footer-left">
+                      <img src="/images/42ad99c3b8bd4843bbd784d7d5666848.png">
+                    <h3>About<span>Samie Integrated</span></h3>
+            
+                    <p class="footer-links">
+                      <a href="#">Home</a>
+                      |
+                      <a href="#">About</a>
+                      |
+                      <a href="#">Contact</a>
+                    </p>
+            
+                    <p class="footer-company-name">© 2023 Samie Integrated Nigeria Ltd.</p>
+                  </div>
+            
+                  <div class="footer-center">
+                    <div>
+                      <i class="fa fa-map-marker"></i>
+                        <p><span>309 - Lagos,
+                         Bldg. No. A - 1, Sector - 1</span>
+                        Mahape, Navi Mumbai - 400710</p>
+                    </div>
+            
+                    <div>
+                      <i class="fa fa-phone"></i>
+                      <p>+234 8023004258</p>
+                    </div>
+                    <div>
+                      <i class="fa fa-envelope"></i>
+                      <p><a href="mailto:support@eduonix.com">Osemenesamuel1@gmail.com</a></p>
+                    </div>
+                  </div>
+                  <div class="footer-right">
+                    <p class="footer-company-about">
+                      <span>About the company</span>
+                    We offer the absolute best immmigration consultancy service, with alot of experience in the business, we know just what you need.</p>
+                    <div class="footer-icons">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+        </div>
+    
+               <!-- Global Mailform Output-->
+    <div class="snackbars" id="form-output-global"></div>
+    <!-- Javascript-->
+    <script src="/js/core.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

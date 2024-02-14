@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,800;1,400&display=swap');
+
+
+.nav-bar{
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    color:#fff;
+    align-items: center;
+    z-index: 9999;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.nav-logo{
+    text-align: start;
+    color:blueviolet;
+}
+
+.nav-bar b{
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-list .list{
+list-style: none;
+display: flex;
+flex-direction: row;
+gap:25px;
+cursor: pointer;;}
+
+.nav-list{
+position: absolute;
+right: 30px;
+}
+
+.service{
+    gap:170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service-section{
+	background-color:  #6689ff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap:16px;
+	width: 97%;
+	height: 70vh;
+	border-radius: .7rem;
+	background: url(/images/portrait-attractive-cuban-woman-presenting-statistical-information-her-unrecognizable-boss.jpg);
+	background-size: 100% 100%;
+}
+
+.service-section img{
+    width:70%;
+    height: 23vh;
+}
+
+.service-section h2{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+}
+.service-big-box{
+    display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+	grid-gap: 30px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 15px;
+  padding:3rem 3rem;
+  gap:190px;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:12px;
+	background-color: #fff;
+	border: .57px solid rgba(119, 117, 117, 0.308);
+	padding: 2rem 4rem;
+    }
+
+
+
+.service-box img{
+    width: 19vh;
+    height: 19vh;
+}
+
+.service-box h2{
+ font-size: 1.8rem;
+ text-align: center;
+}
+
+.service-box b{
+    text-align: center;
+	color:#8f9296;
+}
+
+.service-box a{
+	background: #6689ff;
+	border:#6689ff;
+	color:#fff;
+padding: 1rem 3rem;
+list-style: none;
+text-decoration-style: none;
+border-radius: .9rem;
+transition: .6s linear;
+}
+
+.service-box a:hover{
+	border:.55px solid #6689ff;
+	background: #fff;
+	color: #6689ff;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+  position: static;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  black;
+}
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color:  #6689ff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color:  black;
+	vertical-align: middle;
+	margin:0;
+	margin-top: 2rem;
+}
+
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:   #6689ff;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-section{
+	background:URL(/images/business-colleagues-watching-content-laptop.jpg);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap:16px;
+	width: 97%;
+	border-radius: .7rem;
+	padding: 3rem .5rem;
+	background-size: 100% 100%;
+}
+
+.footer-section h2{
+	font-size: 52px;
+	color: #fff;
+}
+
+.footer-section a{
+	background-color: #fff;
+	color:  #6689ff;
+	padding: 10px 15px;
+border-radius: 1rem;
+list-style: none;
+text-decoration-style: none;
+cursor: pointer;
+list-style-type: none;
+}
+
+.abslide{
+	opacity: 0;
+	transition: all 1s;
+	transform: translateX(-100%);
+	filter: blur(5px);
+}
+
+.show{
+	opacity: 100;
+	filter: blur(0);
+	transform: translateX(0);
+}  
+
+
+.service-box:nth-child(2){
+transition-delay: 200ms;
+}
+
+.service-box:nth-child(3){
+	transition-delay: 400ms;
+}
+
+.service-box:nth-child(4){
+	transition-delay: 600ms;
+}
+
+.footer-section h2{
+	color:#fff;
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 500;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 4s steps(37) infinite,
+    cursor .4s step-end infinite alternate;
+}
+
+.service-section h2{
+    color:#fff;
+    text-align: center;
+    font-size: 2.9rem;
+    font-weight: 500;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 4s steps(37) infinite,
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes typing{
+    from {width: 0}
+}
+
+
+
+@media all and (max-width:600px) and (min-width:300px){
+	.footer-distributed{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-section h2{
+		animation-name: scroll;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		overflow: visible;
+	}
+
+	@keyframes scroll{
+		from {transform: translateX(0)}
+		to {transform: translateX(-50%)}
+	}
+
+.service-section h2{
+	animation-name: scroll;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	overflow: visible;
+	}
+}
